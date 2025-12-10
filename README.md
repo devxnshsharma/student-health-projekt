@@ -13,7 +13,6 @@ It allows schools to store, search, and manage students' medical records, includ
   - `csv` for export
   - `datetime` for date and vaccination alerts
   
-## Quick Start
 
 ### 1. Prerequisites
 - Python 3.8+

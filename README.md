@@ -3,6 +3,16 @@
 A terminal-based Student Medical Record Management System built with Python and MySQL.  
 It allows schools to store, search, and manage students' medical records, including basic demographics, physical metrics (height, weight, BMI), allergies, and vaccination history.
 
+## Tech Stack
+
+- **Language:** Python 3.x  
+- **Database:** MySQL  
+- **Client:** Command-line interface (CLI)  
+- **Libraries:**
+  - `pymysql` for MySQL connectivity
+  - `csv` for export
+  - `datetime` for date and vaccination alerts
+  
 ## Quick Start
 
 ### 1. Prerequisites
@@ -54,16 +64,6 @@ python main.py
   - MySQL database using PyMySQL
   - Separate `users` and `records` tables
   - Parameterized queries for safer database operations
-
-## Tech Stack
-
-- **Language:** Python 3.x  
-- **Database:** MySQL  
-- **Client:** Command-line interface (CLI)  
-- **Libraries:**
-  - `pymysql` for MySQL connectivity
-  - `csv` for export
-  - `datetime` for date and vaccination alerts
 
 ## Project Structure
 
@@ -153,12 +153,6 @@ After successful admin authentication, you can:
 - Encrypt sensitive fields and implement proper password hashing.
 - Build a simple web UI (Flask/FastAPI) on top of the same database schema.
 - Add role management for school nurse, class teacher, etc.
-
-## License
-
-Specify your preferred license here, for example:
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## Author
 

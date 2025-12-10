@@ -414,8 +414,6 @@ class CLI:
         print("2. Missing critical vaccinations")
         
         choice = self.user_input("Enter choice: ", int)
-        # Implementation in next section
-        print("Feature coming soon.")
     
     def search_allergy(self):
         """Search by allergy"""

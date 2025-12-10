@@ -156,5 +156,5 @@ After successful admin authentication, you can:
 
 ## Author
 
-- Your Name – Devansh Sharma
+- Devansh Sharma
 - GitHub: [@devxnshsharma](https://github.com/devxnshsharma)

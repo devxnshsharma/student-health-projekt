@@ -1,4 +1,4 @@
-# Student Medical Record Management System (Python + MySQL)
+# MedRep: Student Medical Record Management System 
 
 A terminal-based Student Medical Record Management System built with Python and MySQL.  
 It allows schools to store, search, and manage students' medical records, including basic demographics, physical metrics (height, weight, BMI), allergies, and vaccination history.
@@ -12,7 +12,7 @@ It allows schools to store, search, and manage students' medical records, includ
   - `pymysql` for MySQL connectivity
   - `csv` for export
   - `datetime` for date and vaccination alerts
-  
+<hr>
 
 ### 1. Prerequisites
 - Python 3.8+
@@ -39,6 +39,7 @@ cp .env.example .env
 ```bash
 python main.py
 ```
+<hr>
 
 # Features
 
@@ -80,6 +81,7 @@ projekt/
 ├── .env.example         # Example environment config
 └── SETUP_GUIDE.md       # Detailed setup instructions
 ```
+<hr>
 
 ## Configuration
 
@@ -102,6 +104,7 @@ AdminAuth.create_admin('admin', 'password123', 'Admin Name', 'admin@example.com'
 
 
 The application will automatically create the required tables if they do not exist.
+<hr>
 
 ## Usage
 
@@ -135,6 +138,7 @@ After successful admin authentication, you can:
 6. **Search by Allergy** – Find students with a given allergy keyword.
 7. **Export Records to CSV** – Export all records to a timestamped CSV file.
 8. **Exit** – Exit the admin dashboard.
+<hr>
 
 ## Security Notes
 
